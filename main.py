@@ -36,6 +36,7 @@ for num in range(1, finish_cell):
             else:
                 continue
     wb.save('D:\pyCharmProject\deal.xlsx')
-    print('Done', col_a,  ', Finish ->', finish_cell)
+    print('Done', col_a, ', Finish ->', finish_cell)
 
 print('All done! in', (time.time() - start_time) / 60, 'min')
+
